@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.section1 {
+  background-size: cover;
+  background-image: url(./img/bg.png);
+  background-position: center;
+  height: 476px;
+  width: 1519px;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 80px;
+}
+
+.hightlight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 64px 0px;
+}
+
+.btn-lg {
+  background-color: #ff5a00;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 15px;
+  margin-top: 16px;
+  font-size: 17px;
+}
+.login-btn {
+  background-color: #5b46db;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+}
+
+.feature:hover {
+  background-image: url(./img/card.png);
+  color: white;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: -72px;
+}
+
+.nav {
+  display: flex;
+  height: 110px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+.navright {
+  padding-right: 80px;
+}
+.btn {
+  background: none;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  color: white;
+}
+
+.dropdown {
+  background: none;
+  position: relative;
+  display: inline-block;
+}
+
+.content {
+  background: none;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.content a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.content a:hover {
+  color: black;
+}
+
+.dropdown:hover .content {
+  display: block;
+}
+
+.dropdown:hover .btn {
+  color: black;
+}
+
+.section2 {
+  height: 480px;
+}
+
+.client {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.decoration {
+  width: 351px;
+  height: 311px;
+  margin-top: -50px;
+  z-index: -1;
+  margin-left: -107px;
+}
+
+.star {
+  width: 169px;
+  height: 13px;
+  display: flex;
+  justify-content: center;
+}
+
+.section3 {
+  height: 440px;
+  background-color: #eeeeee;
+}
+
+.head {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.card img {
+  border-radius: 50%;
+}
+
+.icon > img {
+  width: 45px;
+  height: 45px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.feature {
+  box-shadow: 10px 10px 10px black;
+  box-shadow: 1px 1px 9px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 272px;
+  padding: 23px 27px;
+  margin-left: 45px;
+  border-radius: 11px;
+}
+
+.feed {
+  padding: 0px 38px;
+  text-align: center;
+}
+
+.name {
+  margin-top: 13px;
+}
+
+.md {
+  font-size: 19px;
+}
+
+/* section4 */
+.para4 {
+  color: #2f6c72;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 0px 505px;
+}
+
+.section4 {
+  height: 150px;
+  background-color: #0ba7b724;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 17px;
+}
+
+/* section5 */
+.section5 {
+  height: 1070px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cardcontainer5 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card5 {
+  width: 392px;
+  height: 269px;
+  padding: 13px 22px;
+  border-radius: 22px;
+  margin: 0px 130px;
+}
+
+.card5-1 {
+  border: 1px solid black;
+}
+
+.card5-2 {
+  border: 1px solid #0ba7b7;
+  background-color: #0ba7b7;
+  color: white;
+}
+
+.card5 > img {
+  width: 90px;
+  height: 60px;
+}
+
+.card5head {
+  font-size: 19px;
+}
+
+.card5text {
+  font-size: 15px;
+  color: #838383;
+}
+
+.head5 {
+  color: #2f6a70;
+  padding: 39px 0px;
+}
+
+.card5text2 {
+  color: white;
+}
+
+.card5btn {
+  margin: 10px 0px;
+
+  padding: 8px 16px;
+  border-radius: 34px;
+}
+
+.card5btn1:hover {
+  background-color: #ff5a00;
+  color: white;
+}
+
+.card5btn2:hover {
+  background-color: white;
+  color: black;
+}
+
+.card5btn1 {
+  background-color: white;
+  border: 1px solid #0ba7b7;
+}
+
+.card5btn2 {
+  background-color: #0ba7b7;
+  border: 1px solid white;
+  color: white;
+}
+
+.founder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 856px;
+  height: 520px;
+  padding: 0px 68px;
+  position: relative;
+  border: 1px solid #a9a9a9;
+}
+
+.founder::before {
+  content: "\201c";
+  top: -31px;
+  left: -19px;
+  color: #fece00;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 6rem;
+  position: absolute;
+}
+
+.founder::after {
+  content: "\201d";
+  bottom: -79px;
+  right: -21px;
+  color: #fece00;
+  font-size: 6rem;
+  position: absolute;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.founderdesc {
+  padding-left: 81px;
+}
+
+.founderpara {
+  font-weight: 400;
+}
+
+.foundername {
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 16px;
+}
+
+.imgsection {
+  position: relative;
+}
+
+.imgsection > img {
+  border-radius: 50%;
+  height: 235px;
+  width: 235px;
+}
+
+.design {
+  position: absolute;
+  background-color: #fece00;
+  z-index: -1;
+  width: 160px;
+  right: 83px;
+  bottom: 94px;
+  border-radius: 50%;
+  height: 160px;
+}
+
+.design2 {
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgb(248, 248, 55);
+  width: 210px;
+  z-index: -2;
+  left: 36px;
+  height: 210px;
+  bottom: 43px;
+}
+
+/* sectoin6*/
+
+.section6 {
+  display: flex;
+  background-color: #0ba7b7;
+  height: 150px;
+  align-items: center;
+  color: white;
+  justify-content: center;
+}
+
+/* section7*/
+
+.section7 {
+  height: 572px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head7 {
+  font-size: 34px;
+}
+
+.description {
+  text-align: center;
+  font-weight: 500;
+  padding: 35px 349px;
+}
+
+.cardcontainer {
+  margin: 23px 0px;
+  display: flex;
+}
+
+.card7 {
+  padding: 10px 18px;
+  height: 240px;
+  width: 296px;
+  border-radius: 11px;
+  margin: 0px 87px;
+  border: 1px solid white;
+  box-shadow: 10px 10px 10px black;
+  box-shadow: 1px 1px 9px black;
+}
+
+.card7head {
+  margin: 4px 4px;
+  font-size: 25px;
+  color: #0ba7b7;
+}
+
+.carddesc {
+  font-size: 14px;
+}
